@@ -4,6 +4,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class Author extends Person {
     private List books;
 
@@ -15,7 +16,7 @@ public class Author extends Person {
     /**
      * @deprecated Use publishedBooks instead
      */
-    @Deprecated
+    @SuppressWarnings("unchecked")
     public List<String> getBooks() {
         return books;
     }
