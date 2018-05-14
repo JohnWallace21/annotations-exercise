@@ -7,7 +7,7 @@
 
 ## Configuration
 
-IntelliJ compiles and executes our code from the terminal without our direct intervention. For this
+IntelliJ compilesss and executes our code from the terminal without our direct intervention. For this
 exercise we will not use it, because it would *hide* the warnings that we want to fix. For this
 exercise we will use the *terminal* instead.
 
@@ -24,7 +24,7 @@ javac -d out/ src/*
 ```
 
 In the previous command, the option `-d` specifies the directory where the `.class` files are going
-to be saved, `out` for this example. `src/*` tells the compiler to compile all the `.java` files in
+to be saved, `out` for this example. `src/*` tells the compiler to compile all the ` -.java` files in
 the `src` directory.
 
 Sometimes the compiler produces unrelated error messages when there are existing `.class` files in
