@@ -7,7 +7,7 @@
 
 ## Configuration
 
-IntelliJ compilesss and executes our code from the terminal without our direct intervention. For this
+IntelliJ compilesss and executes our code from the terminal without our direct intervention. For this...
 exercise we will not use it, because it would *hide* the warnings that we want to fix. For this
 exercise we will use the *terminal* instead.
 
