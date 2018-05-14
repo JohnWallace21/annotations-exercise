@@ -10,7 +10,7 @@ public class Author extends Person {
 
     public Author(String firstName, String lastName) {
         super(firstName, lastName);
-        books = new ArrayList();
+        books = new ArrayList<String>();
     }
 
     /**
@@ -22,7 +22,7 @@ public class Author extends Person {
         return books;
     }
 
-    public List <String> publishedBooks() {
+    public List<String> publishedBooks() {
         return books;
     }
 
